@@ -1,17 +1,41 @@
 .App {
-  background-color: #282c34;
+  background-color: #2b2d42;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: #edf2f4;
+}
+
+a,
+a:visited {
+  color: #edf2f4;
+}
+
+h1,
+p {
+  margin: 0;
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+
+.App-faIcon {
+  margin: 50px 10px;
+  font-size: 2em;
+  transition: 300ms;
+}
+
+.App-faIcon:hover {
+  color: #8d99ae;
+  transform: scale(1.1);
+  overflow: hidden;
+  cursor: pointer;
+  transition: 300ms;
 }
 
 @media (prefers-reduced-motion: no-preference) {
